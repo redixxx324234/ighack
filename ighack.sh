@@ -1,6 +1,6 @@
 #bin/bash
 #script By Noob Hackers
-#The real creator of core files is not us so the credits 
+#The real creator of core files is not us so the credits
 #Goes to real author
 #colours
 #####3#3#
@@ -66,7 +66,7 @@ clear
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then
-echo 
+echo
 else
 echo -e "\e[91mTOR\e[96m IS NOT RUNNING, PLEASE START TOR IN A NEW SESSION
           BY TYPING\e[92m tor\e[96m AND START IGHACK AGAIN\e[0m "
@@ -98,7 +98,7 @@ sleep 20
 torser="tor"
 if pgrep -x "$torser" >/dev/null
 then
-echo 
+echo
 else
 echo -e "\e[91mTOR\e[96m IS NOT RUNNING, PLEASE START TOR IN A NEW SESSION
           BY TYPING\e[92m tor\e[96m AND START IGHACK AGAIN\e[0m "
@@ -119,7 +119,7 @@ printf "\n"
 printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 }
-echo 
+echo
 menu1(){
 printf "\e[1;92m[\e[0m\e[1;77m1\e[0m\e[1;92m]\e[0m\e[1;93m Auto Attack\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m2\e[0m\e[1;92m]\e[0m\e[1;93m Manual Attack\e[0m\n"
@@ -139,7 +139,7 @@ cd $HOME/ighack/main
 bash manual.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 abot
-elif [[ $option == 4 || $option == 04 ]]; then                                                             
+elif [[ $option == 4 || $option == 04 ]]; then
 cd $HOME/ighack/core
 bash update.sh
 elif [[ $option == 5 || $option == 05 ]]; then
@@ -172,11 +172,11 @@ center() {                                                                      
   printf '%*.*s %s %*.*s\n' 0 "$(((termwidth-2-${#1})/2))" "$padding" "$1" 0 "$(((termwidth-1-${#1})/2))" "$padding"
 }
 echo -e '\e[92m
-    __    __     ______     ______     ______    
-   /\ "-./  \   /\  __ \   /\  == \   /\  ___\   
-   \ \ \-./\ \  \ \ \/\ \  \ \  __<   \ \  __\   
-    \ \_\ \ \_\  \ \_____\  \ \_\ \_\  \ \_____\ 
-     \/_/  \/_/   \/_____/   \/_/ /_/   \/_____/ 
+    __    __     ______     ______     ______
+   /\ "-./  \   /\  __ \   /\  == \   /\  ___\
+   \ \ \-./\ \  \ \ \/\ \  \ \  __<   \ \  __\
+    \ \_\ \ \_\  \ \_____\  \ \_\ \_\  \ \_____\
+     \/_/  \/_/   \/_____/   \/_/ /_/   \/_____/
 '
 echo -e "\e[34m"
 center "OPTIONS"
@@ -209,7 +209,7 @@ fi
 devchk(){
   clear
 echo -e '\e[92m
-                  ___  ___  _  _  __  __  ___ 
+                  ___  ___  _  _  __  __  ___
                  (   \(  _)( )( )(  )/ _)(  _)
                   ) ) )) _) \\//  )(( (_  ) _)
                  (___/(___) (__) (__)\__)(___)
@@ -222,8 +222,8 @@ grn="\033[92m"
 blu="\033[34m"
 mob=$(uname -o)
 arc=$(dpkg --print-architecture)
-str=$(du -hs)                                                               
-krn=$(uname -s)                                                             
+str=$(du -hs)
+krn=$(uname -s)
 ip=$(curl -s https://api.ipify.org)
 AVL=`df -h /storage/emulated | awk '{ print $4 }' | tail -1`
 upt=$(uptime | sed 's/.*up \([^,]*\), .*/\1/')
@@ -235,7 +235,7 @@ brnd=$(getprop ro.product.brand)
 cpu=$(getprop ro.product.cpu.abi)
 date=$(date +%A-%B/%d/%Y)
 wom=$(whoami)
-echo -e "                                                                                                  
+echo -e "
       ╭━━━━━━━━━━━━━╮
       ┃━━━━$blu●$grn━══━━━━━┃| $grn$cod Date=$o" $date"$grn
       ┃SUBSCRIBE    ┃| $grn$cod CPU=$o" $cpu"$grn
@@ -355,17 +355,17 @@ if [ "$opts" = "1" ];
 then
 am start -a android.intent.action.VIEW -d https://noobhacktube.com/v/r2ttPR 2>/dev/null
 help
-elif [ "$opts" = "2" ];                             
+elif [ "$opts" = "2" ];
 then
 am start -a android.intent.action.VIEW -d https://bit.ly/3hF5PT2 2>/dev/null
 clear
 help
-elif [ "$opts" = "3" ];                             
+elif [ "$opts" = "3" ];
 then
 am start -a android.intent.action.VIEW -d https://bit.ly/3hF5PT2 2>/dev/null
 clear
 help
-elif [ "$opts" = "4" ];                             
+elif [ "$opts" = "4" ];
 then
 am start -a android.intent.action.VIEW -d https://noob-hackers.github.io/noobspage 2>/dev/null
 clear
